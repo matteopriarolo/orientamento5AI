@@ -16,6 +16,7 @@
 }
 body {
     overflow-x: hidden;
+    padding-bottom: 200px;
 }
 h1 {color: var(--text);}
 .center{ 
@@ -78,35 +79,46 @@ header {
     /* border: solid red 2px; */
 }
 
+li, li *{
+    list-style: none;
+    color: var(--text);
+}
 
-.sito {
-    border: solid red 2px;
-    position
+/* --- TABELLA.HTML ---- */
+/* --- TABELLA.HTML ---- */
+#tabella {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+#tabella table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tabella th, 
+#tabella td {
+  border: 2px solid red;
+  text-align: center;
+  padding: 8px;
+}
+
+#tabella th {
+  background-color: var(--blue);
+  color: white;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---- ESPERIENZE.HTML ---- */
+#esperienze .container {
+    margin-top: 100px;
+    border: solid var(--blue) 2px;
+    width: 30vw;
+    font-size: 25px;
+    border-radius: 10px;
+}
 
 
 
