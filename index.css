@@ -29,6 +29,7 @@
     /* border: solid red 2px; */
 }
 
+
 @media (max-width: 930px) {
     .bottoni {
         justify-content: center;
