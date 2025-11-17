@@ -16,7 +16,7 @@ div.innerHTML = `
             <nav id="nav-circle" class="d-flex gap-3 center">
                 <div>
                     <a class="nav-link text-white fw-bold" href="index.html">Home</a>
-                    <a class="nav-link text-white fw-bold" href="tabella.html">Tabelle Orarie</a>
+                    <a class="nav-link text-white fw-bold" href="tabella.html">Quadro Orario</a>
                     <a class="nav-link text-white fw-bold" href="indexMaterie.html">Materie</a>
                     <a class="nav-link text-white fw-bold" href="esperienze.html">Progetti</a>
                     <a class="nav-link text-white fw-bold" href="lavoro.html">Lavoro</a>

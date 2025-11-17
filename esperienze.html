@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,12 +17,45 @@
 <script src="menu.js"></script>
 
 <body id="esperienze">
-    <h1 class="text-center mt-5">LABORATORI ED ESPERIENZE</h1>
-    <div class="container center">
-        <ul>
-            <li>Videogioco</li>
-            <li>Certificazione Cisco</li>
-        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="text-center mt-5">LABORATORI ED ESPERIENZE</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-5 border border-2 border border-dark me-5 p-2">
+                <p>Olimpiadi di informatica </p>
+                <img src="/assets/olimpiadi.png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-5 border border-2 border border-dark p-2">
+                <p>Cisco</p>
+                <img src="/assets/ciscoLogo.png" class="img-fluid p-4">
+            </div>
+            <div class="col-sm-11 border border-2 border border-dark mt-5 p-2">
+                <p>Campionato di videogioco</p>
+                <button id="video_videogioco" type="button" class="btn btn-primary w-25 argomenti" data-bs-toggle="modal"
+                    data-bs-target="#imageModal">Riproduci</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalImages" class="imgs center"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
@@ -30,6 +64,9 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+</script>
 <script src="script.js"></script>
+    <script src="popup.js"></script>
+
+
 </html>
