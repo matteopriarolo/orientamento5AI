@@ -1,0 +1,47 @@
+#in_comune {
+    /* border: solid red 2px; */
+}
+#in_comune h5 {
+    margin-bottom: 20px;
+}
+#descrizione {
+    /* border: solid red 2px; */
+    width: 80%;
+}
+
+.bottoni {
+    display: flex;
+    border: solid black 2px;
+    border-radius: 10px;
+    gap: 100px;
+    padding: 40px;
+
+    width: 70%;
+    max-width: fit-content;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+.bottoni div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: solid red 2px; */
+}
+
+
+@media (max-width: 930px) {
+    .bottoni {
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+@media (max-width: 502px) {
+    .bottoni {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
